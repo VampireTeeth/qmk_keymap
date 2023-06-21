@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   TT(MOUSE),             KC_1,                 KC_2,                    KC_3,             KC_4,                KC_5,           KC_NO,                KC_NO,          KC_6,                KC_7,                KC_8,           KC_9,            KC_0,                    KC_NO,
   KC_TAB,                KC_Q,                 KC_W,                    KC_E,             KC_R,                KC_T,           KC_NO,                KC_NO,          KC_Y,                KC_U,                KC_I,           KC_O,            KC_P,                    KC_BSPC,
   KC_ESC,                KC_A,                 KC_S,                    KC_D,             LT(NONNUMSYMB,KC_F), LT(ARITH,KC_G),                                       LT(ARITH,KC_H),      LT(NONNUMSYMB,KC_J), KC_K,           KC_L,            KC_SCLN,                 KC_QUOT,
-  SFT_T(KC_TAB),         CTL_T(KC_Z),          GUI_T(KC_X),             ALT_T(KC_C),      KC_V,                KC_B,           ALL_T(KC_NO),         MEH_T(KC_NO),   KC_N,                KC_M,                ALT_T(KC_COMM), GUI_T(KC_DOT),   CTL_T(KC_SLSH),          SFT_T(KC_ENT),
+  SFT_T(KC_BSPC),        CTL_T(KC_Z),          GUI_T(KC_X),             ALT_T(KC_C),      KC_V,                KC_B,           ALL_T(KC_NO),         MEH_T(KC_NO),   KC_N,                KC_M,                ALT_T(KC_COMM), GUI_T(KC_DOT),   CTL_T(KC_SLSH),          SFT_T(KC_ENT),
   TT(MDIA),              KC_LCTL,              KC_LGUI,                 KC_LALT,          TG(NAVI),                                                                  KC_LEFT,             KC_DOWN,             KC_UP,          KC_RIGHT,        TT(GAME),
 
                                                                                                            ALT_T(KC_APP), KC_LGUI,                   KC_LALT, CTL_T(KC_ESC),
@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   TT(MOUSE),             KC_1,                 KC_2,                    KC_3,             KC_4,                KC_5,           KC_NO,                KC_NO,          KC_6,                KC_7,                KC_8,           KC_9,            KC_0,                    KC_NO,
   KC_TAB,                KC_QUOT,              KC_COMM,                 KC_DOT,           KC_P,                KC_Y,           KC_NO,                KC_NO,          KC_F,                KC_G,                KC_C,           KC_R,            KC_L,                    KC_BSPC,
   KC_ESC,                KC_A,                 KC_O,                    KC_E,             LT(NONNUMSYMB,KC_U), LT(ARITH,KC_I),                                       LT(ARITH,KC_D),      LT(NONNUMSYMB,KC_H), KC_T,           KC_N,            KC_S,                    KC_SLSH,
-  SFT_T(KC_TAB),         CTL_T(KC_SCLN),       GUI_T(KC_Q),             ALT_T(KC_J),      KC_K,                KC_X,           ALL_T(KC_NO),         MEH_T(KC_NO),   KC_B,                KC_M,                ALT_T(KC_W),    GUI_T(KC_V),     CTL_T(KC_Z),             SFT_T(KC_ENT),
+  SFT_T(KC_BSPC),        CTL_T(KC_SCLN),       GUI_T(KC_Q),             ALT_T(KC_J),      KC_K,                KC_X,           ALL_T(KC_NO),         MEH_T(KC_NO),   KC_B,                KC_M,                ALT_T(KC_W),    GUI_T(KC_V),     CTL_T(KC_Z),             SFT_T(KC_ENT),
   TT(MDIA),              KC_LCTL,              KC_LGUI,                 KC_LALT,          TG(NAVI),                                                                  KC_LEFT,             KC_DOWN,             KC_UP,          KC_RIGHT,        TT(GAME),
 
                                                                                                            ALT_T(KC_APP), KC_LGUI,                   KC_LALT, CTL_T(KC_ESC),
@@ -80,7 +80,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // left hand
   KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,
   KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_PGDN,        KC_PGUP,        KC_TRNS,        KC_TRNS,        KC_TRNS,
-  KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        MO(MOUSE),      KC_TRNS,                                        KC_LEFT,        KC_DOWN,        KC_UP  ,        KC_RIGHT,       KC_TRNS,        KC_TRNS,
+  KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        TG(MOUSE),      KC_TRNS,                                        KC_LEFT,        KC_DOWN,        KC_UP  ,        KC_RIGHT,       KC_TRNS,        KC_TRNS,
   KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,
   KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,        KC_TRNS,                                                                        KC_TRNS,      DF(QWERTY),     DF(DVORAK),     KC_TRNS,        KC_TRNS,
 
@@ -108,7 +108,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_DEL,           KC_1,                KC_2,                    KC_3,             KC_4,              KC_5,    KC_NO,                KC_NO,        KC_6,         KC_7,           KC_8,           KC_9,          KC_0,                    KC_NO,
   KC_TAB,           KC_Q,                KC_W,                    KC_E,             KC_R,              KC_T,    KC_NO,                KC_NO,        KC_Y,         KC_U,           KC_I,           KC_O,          KC_P,                    KC_BSPC,
   CTL_T(KC_ESC),    KC_A,                KC_S,                    KC_D,             KC_F,              KC_G,                                        KC_H,         KC_J,           KC_K,           KC_L,          KC_SCLN,                 CTL_T(KC_QUOT),
-  SFT_T(KC_TAB),    CTL_T(KC_Z),         GUI_T(KC_X),             ALT_T(KC_C),      KC_V,              KC_B,    ALL_T(KC_NO),         MEH_T(KC_NO), KC_N,         KC_M,           ALT_T(KC_COMM), GUI_T(KC_DOT), CTL_T(KC_SLSH),          SFT_T(KC_ENT),
+  SFT_T(KC_BSPC),   CTL_T(KC_Z),         GUI_T(KC_X),             ALT_T(KC_C),      KC_V,              KC_B,    ALL_T(KC_NO),         MEH_T(KC_NO), KC_N,         KC_M,           ALT_T(KC_COMM), GUI_T(KC_DOT), CTL_T(KC_SLSH),          SFT_T(KC_ENT),
   KC_TRNS,          KC_LCTL,             KC_LGUI,                 KC_LALT,          OSL(NONNUMSYMB),                                                              OSL(NONNUMSYMB),KC_RALT,        KC_RGUI,       KC_RCTL,                 KC_TRNS,
 
                                                                              ALT_T(KC_APP), KC_LGUI,                   KC_LALT, CTL_T(KC_ESC),
