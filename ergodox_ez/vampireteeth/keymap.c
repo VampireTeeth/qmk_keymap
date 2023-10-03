@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
                                                                                                                  KC_LGUI, KC_LCTL,                   KC_RCTL, KC_LGUI,
                                                                                                                           KC_LALT,                   KC_RALT,
-                                                                                                 LSFT_T(KC_SPC), KC_BSPC,TT(NAVI),                   TT(NAVI),KC_ENT, RSFT_T(KC_SPC)
+                                                                                  LSFT_T(KC_SPC), LT(NONNUMSYMB,KC_BSPC), TT(NAVI),                  TT(NAVI), LT(ARITH,KC_ENT), RSFT_T(KC_SPC)
 ),
 
 
@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
                                                                                                                  KC_LGUI, KC_LCTL,                   KC_RCTL, KC_LGUI,
                                                                                                                           KC_LALT,                   KC_RALT,
-                                                                                                 LSFT_T(KC_SPC), KC_BSPC,TT(NAVI),                   TT(NAVI),KC_ENT, RSFT_T(KC_SPC)
+                                                                                  LSFT_T(KC_SPC), LT(NONNUMSYMB,KC_BSPC), TT(NAVI),                  TT(NAVI), LT(ARITH,KC_ENT), RSFT_T(KC_SPC)
 ),
 
 
